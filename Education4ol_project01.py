@@ -12,7 +12,7 @@ password = input("Type your password and press enter:\n") #you can directly ente
 receiver_email = input('Type Receivers email address and press enter\n') #you can directly enter the receivers email address elclosed in single quotes
 msg=MIMEMultipart()
 msg['Subject'] = input('Enter the subject\n') #you can directly enter the subject elclosed in single quotes
-content=input('Enter the body of mail') #you can directly enter the Body if the mail elclosed in single quotes
+content=input('Enter the body of mail\n') #you can directly enter the Body if the mail elclosed in single quotes
 msg.attach(MIMEText(content))
 '''
 Or you can directly enter subject and body of the mail in following format
