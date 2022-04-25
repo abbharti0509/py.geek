@@ -32,7 +32,7 @@ lenth should be 8
 1-Uppercasse Alphabet 
 1-Lowercase Alphabet
 1-Number
-1-Symbol
+1-Symbol(_@$)
 '''
 if (len(password)<8):
     flag = -1
